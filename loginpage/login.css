@@ -3,3 +3,48 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.loginbox{
+    width: 20%;
+    padding: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-style: bold;
+    text-align:center;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid gold;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 200px;
+    border-color: burlywood;
+}
+.box input[type="submit"]{
+    border: 0;
+    cursor: pointer;
+    background:darkturquoise;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid royalblue;
+    padding: 14px 10px;
+    outline: none;
+    color: blue;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+button:hover{
+    opacity: 0.8;
+}
